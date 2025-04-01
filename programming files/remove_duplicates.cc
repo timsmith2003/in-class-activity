@@ -3,6 +3,8 @@
 #include <algorithm>
 using namespace std;
 
+//remove_duplicates takes in an array, and a removed elements array as arguments are returns unique array which contains no duplicates.
+
 vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
     vector<int> unique_arr;
     sort(arr.begin(), arr.end());
