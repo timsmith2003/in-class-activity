@@ -4,9 +4,9 @@
 
 std::string rgb_to_hex(int r, int g, int b)
 {
-    r = std::max(0, std::min(255, r));
-    g = std::max(0, std::min(255, g));
-    b = std::max(0, std::min(255, b));
+    r = std::max(0, std::min(255, r)); //Converty red to hex
+    g = std::max(0, std::min(255, g)); //converts green to hex
+    b = std::max(0, std::min(255, b)); // converts blue to hex
 
     std::stringstream ss;
     ss << std::uppercase << std::hex << std::setfill('0')
