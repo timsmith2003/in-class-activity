@@ -21,8 +21,8 @@ public class remove_duplicates {
         List<Integer> arr = Arrays.asList(1, 2, 2, 3, 4, 4, 5);
         List<Integer> removedElements = new ArrayList<>();
         List<Integer> uniqueArr = removeDuplicates(arr, removedElements);
-        System.out.println("Original array: " + arr);
-        System.out.println("Unique array: " + uniqueArr);
+        System.out.println("Original array: " + arr); //prints original array
+        System.out.println("Unique array: " + uniqueArr); //prints unique array
         System.out.println("Removed elements: " + removedElements);
     }
 }
